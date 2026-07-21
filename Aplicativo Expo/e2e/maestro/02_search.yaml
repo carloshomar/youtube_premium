@@ -1,0 +1,19 @@
+appId: com.hak.youtube
+---
+- launchApp
+- extendedWaitUntil:
+    visible: "YTube"
+    timeout: 120000
+- tapOn:
+    id: "header-search"
+- assertVisible:
+    id: "search-input"
+- tapOn:
+    id: "search-input"
+- inputText: "IA"
+- hideKeyboard
+- assertVisible:
+    id: "search-back"
+- tapOn:
+    id: "search-back"
+- assertVisible: "YTube"

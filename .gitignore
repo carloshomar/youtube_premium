@@ -54,3 +54,4 @@ VIDEOS/
 *.mov
 *.mkv
 *.webm
+.env

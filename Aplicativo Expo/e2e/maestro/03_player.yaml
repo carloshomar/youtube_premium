@@ -1,0 +1,17 @@
+appId: com.hak.youtube
+---
+- launchApp
+- extendedWaitUntil:
+    visible: "YTube"
+    timeout: 120000
+- tapOn:
+    id: "video-card-.*"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: "video-view"
+    timeout: 30000
+    optional: true
+- assertVisible:
+    id: "player-minimize"
+    optional: true
