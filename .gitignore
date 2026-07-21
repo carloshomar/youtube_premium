@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Dependencies
+node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+x265_2pass.log*
+
+# Expo / Metro
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Native / signing
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Coverage / build
+coverage/
+*.tsbuildinfo
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local docs & media
+.docs/
+VIDEOS/
+*.mp4
+*.mov
+*.mkv
+*.webm
