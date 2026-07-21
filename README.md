@@ -1,4 +1,4 @@
-# YouTube Premium auto-hospedado
+# YouTube Premium - Gratuito - auto-hospedado
 
 Uma plataforma auto-hospedada para consumir conteúdo do YouTube sem anúncios, propagandas, algoritmos ou conteúdos gerados por IA. Inclui suporte a Vídeos, Music e Shorts, além de compatibilidade com Apple CarPlay.
 
